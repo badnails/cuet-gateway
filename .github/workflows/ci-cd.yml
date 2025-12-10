@@ -12,7 +12,7 @@ env:
   IMAGE_NAME: ${{ github.repository }}
   # Define your Swarm Service name here for easy updates
   # format: <stack_name>_<service_name>
-  SWARM_SERVICE_NAME: my_stack_gateway
+  SWARM_SERVICE_NAME: cuet_stack_gateway
 
 jobs:
   test:
